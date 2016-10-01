@@ -9,21 +9,11 @@ const {
 } = UI;
 
 class Footer extends Component {
-	constructor() {
-		super();
-		this.state = {
-			startsAt: 0,
-			currentPage: 1,
-			currentFilter: 2,
-			filteredIssues: []
-		};
-	}
-
 	render() {
 		const pagination = this.props.pagination;
 		const totalPages = Math.ceil(pagination.total / pagination.limit);
 		const currentPage = pagination.offset ? Math.ceil(pagination.total / pagination.offset) : 0;
-		console.log(currentPage);
+
 		return (
 			<Container className={styles.footer}>
 				<Row xs='center' className={styles.footer__list}>

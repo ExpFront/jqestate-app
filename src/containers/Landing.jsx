@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import types from 'react-types';
 import Header from '../components/header';
 import Content from '../components/content';
 import Footer from '../components/footer';
@@ -23,8 +22,8 @@ class Landing extends React.Component {
 		// Data are fetching
 		if (adverts.isFetching) {
 			return (
-				<section className={styles.app}>
-					<Loading />
+				<section className={styles.app_type_loading}>
+					<Loading className={styles.app_preloader} />
 				</section>
 			)
 		} else {
