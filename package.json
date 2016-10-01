@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/ExpFront/jqestate-app#readme",
   "dependencies": {
-    "@react-ui/atoms-css-modules": "file:node_modules/@react-ui/atoms-css-modules",
+    "@react-ui/atoms-css-modules": "^1.0.0-beta3",
     "@react-ui/core": "^1.0.0-beta2"
   },
   "devDependencies": {
