@@ -1,0 +1,14 @@
+.header {
+	color: #4f4f4f;
+	border-bottom: 1px solid #e6e6e6;
+}
+.header__list {
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
+}
+.header__title {
+	margin: 0;
+	font-size: 2.2rem;
+	font-weight: 300;
+	line-height: 2;
+}

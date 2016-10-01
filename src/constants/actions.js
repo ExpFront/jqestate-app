@@ -1,0 +1,4 @@
+// Adverts
+export const REQUEST_ADVERTS = 'REQUEST_ADVERTS';
+export const RECEIVE_ADVERTS = 'RECEIVE_ADVERTS';
+export const FETCH_ADVERTS = 'FETCH_ADVERTS';
