@@ -5,7 +5,7 @@
 Install Node.js and then:
 
 ```sh
-$ git clone git@github.com:ExpFront/jqestate-app.git
+$ git clone https://github.com/ExpFront/jqestate-app.git
 $ cd jqestate-app
 $ npm install
 $ npm install --save @react-ui/atoms-css-modules
